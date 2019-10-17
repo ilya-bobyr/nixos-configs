@@ -1,2 +1,4 @@
 result
 host.nix
+vscode/*
+!vscode/User/settings.json
