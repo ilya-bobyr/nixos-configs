@@ -1,6 +1,7 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Atom One Dark",
-  "window.zoomLevel": -1,
-  "editor.tabSize": 2
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "explorer.confirmDelete": false
 }

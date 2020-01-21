@@ -1,0 +1,67 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+alt+enter",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "alt+z",
+    "command": "cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+y",
+    "command": "cursorRedo"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+k ctrl+\\",
+    "command": "-workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.focusRightGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+right",
+    "command": "-workbench.action.focusRightGroup"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+left",
+    "command": "-workbench.action.focusLeftGroup"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.moveEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.moveEditorToLeftGroup"
+  }
+]
